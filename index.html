@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="OBED AI - Your Ghanaian-inspired personal virtual assistant.">
+<title>OBED AI | Ghana Edition</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-container">
+    <header class="chat-header">
+        <div class="brand">
+            <div class="logo">O</div>
+            <div>
+                <h1>OBED AI <span>🇬🇭</span></h1>
+                <p>Your Personal Virtual Assistant</p>
+            </div>
+        </div>
+        <div class="online-status">
+            <span class="status-dot"></span>
+            Online
+        </div>
+    </header>
+    <main class="chat-container">
+        <div class="welcome-section">
+            <div class="welcome-icon">🤖</div>
+            <h2>Akwaaba!</h2>
+            <p>
+                Welcome to OBED AI, your smart conversational
+                assistant inspired by Ghanaian culture.
+            </p>
+            <p class="language-note">
+                Chat with me in English or try some Twi expressions.
+            </p>
+        </div>
+        <div id="chatMessages" class="chat-messages">
+            <div class="message bot-message">
+                <div class="avatar">O</div>
+                <div class="message-content">
+                    <p>
+                        Hello! I'm OBED AI. How can I help you today?
+                        You can type "Maakye" to greet me in Twi!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="typing-indicator" id="typingIndicator">
+            OBED AI is thinking...
+        </div>
+    </main>
+    <footer class="chat-footer">
+        <form id="chatForm" class="input-area">
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Message OBED AI..."
+                autocomplete="off"
+                aria-label="Type your message"
+                maxlength="1000"
+                required
+            >
+            <button type="submit" id="sendButton">
+                Send ➤
+            </button>
+        </form>
+        <p class="footer-note">
+            OBED AI · Ghana Edition 🇬🇭
+            <br>
+            Simple Conversations. Smart Responses.
+        </p>
+    </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
